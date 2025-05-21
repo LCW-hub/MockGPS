@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">MockGPS</string>
+    <string name="hint_duration_seconds">시간(초)</string>
+    <string name="joystick_button">조이스틱</string>
+    <style name="Theme.MockGPS" parent="Base.Theme.MockGPS"/>
+    <style name="Theme.MockGPS2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+    
+        
+    </style>
+</resources>

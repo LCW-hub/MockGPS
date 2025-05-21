@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.gps.JoystickView
+        android:id="@+id/joystick"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnSelectStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="출발지 선택"
+        android:layout_alignParentTop="true"
+        android:layout_margin="12dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnSelectEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="도착지 선택"
+        android:layout_toEndOf="@id/btnSelectStart"
+        android:layout_alignTop="@id/btnSelectStart"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/btnStartMove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이동 시작"
+        android:layout_toEndOf="@id/btnSelectEnd"
+        android:layout_alignTop="@id/btnSelectEnd"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/btnToggleJoystick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="조이스틱 켜기"
+        android:layout_toEndOf="@id/btnStartMove"
+        android:layout_alignTop="@id/btnStartMove"
+        android:layout_marginStart="12dp"/>
+</RelativeLayout>

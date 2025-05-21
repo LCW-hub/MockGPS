@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_current
+drawable ic_end
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_start
+id btnSelectEnd
+id btnSelectStart
+id btnStartMove
+id btnToggleJoystick
+id joystick
+id mainLayout
+id map
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string hint_duration_seconds
+string joystick_button
+style Base.Theme.MockGPS
+style Theme.MockGPS
+style Theme.MockGPS2
+xml backup_rules
+xml data_extraction_rules
